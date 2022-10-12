@@ -59,15 +59,15 @@ ul {
 .header-inner .hamburger span:nth-child(3) {
   top: 0;
 }
-.header-inner .hamburger.active:nth-child(1) {
+.header-inner .hamburger.active span:nth-child(1) {
   top: 5px;
-  transform: rotate(45deg);
+  transform: rotate(-45deg);
 }
-.header-inner .hamburger.active:nth-child(2) {
+.header-inner .hamburger.active span:nth-child(2) {
   opacity: 0;
 }
-.header-inner .hamburger.active:nth-child(3) {
+.header-inner .hamburger.active span:nth-child(3) {
   top: -13px;
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
 }
 /*# sourceMappingURL=style.css.map */

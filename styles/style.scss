@@ -57,17 +57,20 @@ ul {
         top: 0;
       }
     }
-    &.active {
+  }
+  // ハンバーガーメニュークリック後
+  .hamburger.active {
+    span {
       &:nth-child(1) {
         top: 5px;
-        transform: rotate(45deg);
+        transform: rotate(-45deg);
       }
       &:nth-child(2) {
         opacity: 0;
       }
       &:nth-child(3) {
         top: -13px;
-        transform: rotate(-45deg);
+        transform: rotate(45deg);
       }
     }
   }

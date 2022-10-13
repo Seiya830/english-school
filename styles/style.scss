@@ -21,17 +21,19 @@ ul {
     }
   }
   .header-nav {
+    visibility: hidden;
+    opacity: 0;
     position: absolute;
+    transition: opacity 0.3s ease;
     top: 0;
     right: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-    transform: translateX(100%);
     background-color: #ff2a2a;
-    transition: ease 0.4s;
     &.active {
-      transform: translateX(0);
+      visibility: visible;
+      opacity: 1;
     }
   }
   .hamburger {

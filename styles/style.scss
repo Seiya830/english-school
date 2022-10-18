@@ -32,6 +32,7 @@ header {
     ul {
       li {
         margin-bottom: 20px;
+        font-weight: bold;
         a {
           color: #fff;
           font-size: 16px;
@@ -39,9 +40,30 @@ header {
       }
       .nav-btn {
         margin-top: 50px;
+
         a {
-          border: 1px solid#fff;
-          padding: 15px 50px;
+          width: 250px;
+          border: solid 1px#fff;
+          position: relative;
+          display: block;
+          margin: 0 auto;
+          padding: 15px 0;
+          cursor: pointer;
+        }
+        :hover {
+          background-color: #fff;
+          color: #ff2a2a;
+          transition: 0.5s;
+        }
+        ::after {
+          content: "";
+          width: 250px;
+          border-right: solid 1px#fff;
+          border-bottom: solid 1px#fff;
+          padding: 26px 0;
+          position: absolute;
+          right: -8px;
+          bottom: -8px;
         }
       }
     }

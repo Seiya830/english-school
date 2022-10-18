@@ -31,6 +31,7 @@ header .header-nav img {
 }
 header .header-nav ul li {
   margin-bottom: 20px;
+  font-weight: bold;
 }
 header .header-nav ul li a {
   color: #fff;
@@ -40,8 +41,28 @@ header .header-nav ul .nav-btn {
   margin-top: 50px;
 }
 header .header-nav ul .nav-btn a {
-  border: 1px solid #fff;
-  padding: 15px 50px;
+  width: 250px;
+  border: solid 1px #fff;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0;
+  cursor: pointer;
+}
+header .header-nav ul .nav-btn :hover {
+  background-color: #fff;
+  color: #ff2a2a;
+  transition: 0.5s;
+}
+header .header-nav ul .nav-btn ::after {
+  content: "";
+  width: 250px;
+  border-right: solid 1px #fff;
+  border-bottom: solid 1px #fff;
+  padding: 26px 0;
+  position: absolute;
+  right: -8px;
+  bottom: -8px;
 }
 header .header-nav.active {
   visibility: visible;

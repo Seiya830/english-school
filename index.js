@@ -7,7 +7,7 @@ ham.addEventListener("click", function () {
 });
 
 //スライドショーで画像を入れ替える処理
-const img_src = ["./img/language-school-834138_1280.jpg", "./img/students-702094_1280.jpg", "./img/woman-4702060_1280.jpg"];
+// const img_src = ["./img/language-school-834138_1280.jpg", "./img/students-702094_1280.jpg", "./img/woman-4702060_1280.jpg"];
 
 let num = -1;
 

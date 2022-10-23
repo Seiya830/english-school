@@ -126,8 +126,8 @@ header {
 }
 
 .top {
-  position: relative;
   .top-img {
+    position: relative;
     .slider {
       width: 100%;
       height: 300px;
@@ -135,11 +135,11 @@ header {
       display: inline-block;
       overflow: hidden;
       @include pc {
-        position: absolute;
-        top: 100px;
-        right: 0;
         width: 70%;
         height: 720px;
+        margin-right: 0;
+        margin-left: auto;
+        display: block;
       }
     }
 
@@ -155,7 +155,7 @@ header {
       left: 0;
       box-shadow: 0px 0px 10px 10px #fff inset;
       @include pc {
-        top: 100px;
+        top: 0;
         right: 0;
         left: auto;
         width: 70%;
@@ -202,5 +202,24 @@ header {
         transition: 0.4s;
       }
     }
+  }
+}
+
+.section-title {
+  position: relative;
+  font-size: 28px;
+  text-align: center;
+
+  &:after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #333;
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
 }

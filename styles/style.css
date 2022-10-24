@@ -113,6 +113,9 @@ header .hamburger.active span:nth-child(3) {
   transform: rotate(45deg);
 }
 
+.top {
+  margin-bottom: 86px;
+}
 .top .top-img {
   position: relative;
 }
@@ -121,8 +124,6 @@ header .hamburger.active span:nth-child(3) {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
-  display: inline-block;
-  overflow: hidden;
 }
 @media screen and (min-width: 960px) {
   .top .top-img .slider {
@@ -147,8 +148,6 @@ header .hamburger.active span:nth-child(3) {
 }
 @media screen and (min-width: 960px) {
   .top .top-img:after {
-    top: 0;
-    right: 0;
     left: auto;
     width: 70%;
     height: 720px;
@@ -204,6 +203,7 @@ header .hamburger.active span:nth-child(3) {
   position: relative;
   font-size: 28px;
   text-align: center;
+  margin-bottom: 60px;
 }
 .section-title:after {
   content: "";

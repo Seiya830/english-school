@@ -217,4 +217,46 @@ header .hamburger.active span:nth-child(3) {
   right: 0;
   margin: 0 auto;
 }
+
+.reason-content {
+  background-color: #ff2a2a;
+  padding: 40px 0;
+  text-align: center;
+}
+.reason-content .reason-text1 {
+  background-color: #fff;
+  width: 95%;
+  height: 120px;
+  border-radius: 0 15px 15px 0;
+  display: flex;
+}
+.reason-content .reason-text2 {
+  background-color: #fff;
+  border-radius: 15px 0 0 15px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100% - 16px);
+  transform: translateX(16px);
+  height: 120px;
+}
+.reason-content .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reason-content .item .fa-solid {
+  font-size: 60px;
+  margin: 0 30px;
+}
+.reason-content .item-text {
+  margin: 18px 0;
+}
+.reason-content .item-text h3 {
+  color: #ff2a2a;
+  font-size: 24px;
+}
+.reason-content .item-text p {
+  font-size: 18px;
+}
 /*# sourceMappingURL=style.css.map */

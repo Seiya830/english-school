@@ -231,6 +231,10 @@ header {
     height: 120px;
     border-radius: 0 15px 15px 0;
     display: flex;
+    justify-content: flex-end;
+    @include pc {
+      width: 50%;
+    }
   }
   .reason-text2 {
     background-color: #fff;
@@ -241,18 +245,21 @@ header {
     width: calc(100% - 16px);
     transform: translateX(16px);
     height: 120px;
+    @include pc {
+      width: 50%;
+      transform: translateX(100%);
+    }
   }
   .item {
     display: flex;
-    justify-content: center;
     align-items: center;
     .fa-solid {
       font-size: 60px;
-      margin: 0 30px;
     }
   }
   .item-text {
-    margin: 18px 0;
+    width: 60%;
+    margin: auto 30px;
     h3 {
       color: #ff2a2a;
       font-size: 24px;

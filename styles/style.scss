@@ -236,6 +236,18 @@ header {
       width: 50%;
     }
   }
+
+  /*===== inview =====*/
+  .fadeIn-left {
+    opacity: 0;
+    transform: translate(-50%, 0);
+    transition: 1s;
+  }
+  .is-show {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
   .reason-text2 {
     background-color: #fff;
     border-radius: 15px 0 0 15px;

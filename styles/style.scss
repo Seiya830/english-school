@@ -247,21 +247,37 @@ header {
     transform: translate(0, 0);
     opacity: 1;
   }
+  /*==================*/
 
   .reason-text2 {
     background-color: #fff;
     border-radius: 15px 0 0 15px;
     margin-top: 30px;
+    margin-right: 0;
+    margin-left: auto;
     display: flex;
     justify-content: flex-end;
-    width: calc(100% - 16px);
-    transform: translateX(16px);
+    width: 95%;
     height: 120px;
+    transform: translateX(16px);
     @include pc {
       width: 50%;
       transform: translateX(100%);
     }
   }
+
+  /*===== inview =====*/
+  .fadeIn-right {
+    opacity: 0;
+    transform: translate(50%, 0);
+    transition: 1s;
+  }
+  .is-show {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  /*==================*/
+
   .item {
     display: flex;
     align-items: center;

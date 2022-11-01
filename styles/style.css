@@ -222,6 +222,9 @@ header .hamburger.active span:nth-child(3) {
   background-color: #ff2a2a;
   padding: 40px 0;
   /*===== inview =====*/
+  /*==================*/
+  /*===== inview =====*/
+  /*==================*/
 }
 .reason-content .reason-text1 {
   background-color: #fff;
@@ -249,17 +252,28 @@ header .hamburger.active span:nth-child(3) {
   background-color: #fff;
   border-radius: 15px 0 0 15px;
   margin-top: 30px;
+  margin-right: 0;
+  margin-left: auto;
   display: flex;
   justify-content: flex-end;
-  width: calc(100% - 16px);
-  transform: translateX(16px);
+  width: 95%;
   height: 120px;
+  transform: translateX(16px);
 }
 @media screen and (min-width: 960px) {
   .reason-content .reason-text2 {
     width: 50%;
     transform: translateX(100%);
   }
+}
+.reason-content .fadeIn-right {
+  opacity: 0;
+  transform: translate(50%, 0);
+  transition: 1s;
+}
+.reason-content .is-show {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 .reason-content .item {
   display: flex;

@@ -319,4 +319,19 @@ header .hamburger.active span:nth-child(3) {
   border-color: #e9f1fb transparent transparent transparent;
   border-width: 20px 20px 0 20px;
 }
+
+.voice-profile {
+  text-align: center;
+}
+.voice-profile img {
+  background-color: #ccc;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.voice-profile p {
+  font-size: 12px;
+}
 /*# sourceMappingURL=style.css.map */

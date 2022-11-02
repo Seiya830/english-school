@@ -224,6 +224,7 @@ header {
 
 .reason-content {
   background-color: #ff2a2a;
+  margin-bottom: 80px;
   padding: 40px 0;
   .reason-text1 {
     background-color: #fff;
@@ -295,5 +296,30 @@ header {
     p {
       font-size: 18px;
     }
+  }
+}
+
+.voice-text {
+  background-color: #e9f1fb;
+  margin: 30px 16px;
+  padding: 20px 13px;
+  border-radius: 15px;
+  font-size: 20px;
+  position: relative;
+  .balloon {
+    background: #e9f1fb;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+    width: 0;
+    height: 0;
+    margin: auto;
+    border-style: solid;
+    border-color: #e9f1fb transparent transparent transparent;
+    border-width: 20px 20px 0 20px;
   }
 }

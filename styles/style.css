@@ -295,7 +295,14 @@ header .hamburger.active span:nth-child(3) {
   font-size: 18px;
 }
 
-.voice-text {
+@media screen and (min-width: 960px) {
+  .voice-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+}
+.voice-content .voice-text {
   background-color: #e9f1fb;
   margin: 30px 16px;
   padding: 20px 13px;
@@ -303,10 +310,16 @@ header .hamburger.active span:nth-child(3) {
   font-size: 20px;
   position: relative;
 }
-.voice-text .balloon {
+@media screen and (min-width: 960px) {
+  .voice-content .voice-text {
+    width: 514px;
+    height: 142px;
+  }
+}
+.voice-content .voice-text .balloon {
   background: #e9f1fb;
 }
-.voice-text:after {
+.voice-content .voice-text:after {
   content: "";
   position: absolute;
   right: 0;
@@ -319,11 +332,10 @@ header .hamburger.active span:nth-child(3) {
   border-color: #e9f1fb transparent transparent transparent;
   border-width: 20px 20px 0 20px;
 }
-
-.voice-profile {
+.voice-content .voice-profile {
   text-align: center;
 }
-.voice-profile img {
+.voice-content .voice-profile img {
   background-color: #ccc;
   width: 120px;
   height: 120px;
@@ -331,7 +343,13 @@ header .hamburger.active span:nth-child(3) {
   margin: 0 auto;
   margin-bottom: 10px;
 }
-.voice-profile p {
+.voice-content .voice-profile p {
   font-size: 12px;
+}
+
+@media screen and (min-width: 960px) {
+  .voice-flex {
+    flex-direction: row;
+  }
 }
 /*# sourceMappingURL=style.css.map */

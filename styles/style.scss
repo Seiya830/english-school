@@ -304,38 +304,62 @@ header {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    margin-right: 20%;
   }
   .voice-text {
     background-color: #e9f1fb;
     margin: 30px 16px;
     padding: 20px 13px;
     border-radius: 15px;
-    font-size: 20px;
     position: relative;
+    display: inline-block;
+    font-size: 16px;
+    background: #e0edff;
+
     @include pc {
       width: 514px;
       height: 142px;
     }
-    .balloon {
-      background: #e9f1fb;
-    }
-    &:after {
+
+    &::before {
       content: "";
       position: absolute;
-      right: 0;
-      bottom: -20px;
-      left: 0;
-      width: 0;
-      height: 0;
-      margin: auto;
-      border-style: solid;
-      border-color: #e9f1fb transparent transparent transparent;
-      border-width: 20px 20px 0 20px;
+      top: 100%;
+      left: 50%;
+      margin-left: -15px;
+      border: 15px solid transparent;
+      border-top: 15px solid #e0edff;
+      @include pc {
+        top: 70%;
+        left: -30px;
+        margin-top: -15px;
+        margin-left: 0;
+        border-top: 15px solid transparent;
+        border-right: 15px solid #e0edff;
+        border-bottom: 15px solid transparent;
+      }
+    }
+  }
+
+  .balloon-right {
+    &::before {
+      @include pc {
+        content: "";
+        position: absolute;
+        top: 70%;
+        left: 100%;
+        margin-top: -15px;
+        border: 15px solid transparent;
+        border-left: 15px solid #e0edff;
+      }
     }
   }
 
   .voice-profile {
     text-align: center;
+    @include pc {
+      padding-top: 26px;
+    }
     img {
       background-color: #ccc;
       width: 120px;
@@ -353,5 +377,6 @@ header {
 .voice-flex {
   @include pc {
     flex-direction: row;
+    margin-right: -20%;
   }
 }

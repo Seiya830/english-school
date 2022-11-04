@@ -300,6 +300,7 @@ header .hamburger.active span:nth-child(3) {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    margin-right: 20%;
   }
 }
 .voice-content .voice-text {
@@ -307,8 +308,10 @@ header .hamburger.active span:nth-child(3) {
   margin: 30px 16px;
   padding: 20px 13px;
   border-radius: 15px;
-  font-size: 20px;
   position: relative;
+  display: inline-block;
+  font-size: 16px;
+  background: #e0edff;
 }
 @media screen and (min-width: 960px) {
   .voice-content .voice-text {
@@ -316,24 +319,44 @@ header .hamburger.active span:nth-child(3) {
     height: 142px;
   }
 }
-.voice-content .voice-text .balloon {
-  background: #e9f1fb;
-}
-.voice-content .voice-text:after {
+.voice-content .voice-text::before {
   content: "";
   position: absolute;
-  right: 0;
-  bottom: -20px;
-  left: 0;
-  width: 0;
-  height: 0;
-  margin: auto;
-  border-style: solid;
-  border-color: #e9f1fb transparent transparent transparent;
-  border-width: 20px 20px 0 20px;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #e0edff;
+}
+@media screen and (min-width: 960px) {
+  .voice-content .voice-text::before {
+    top: 70%;
+    left: -30px;
+    margin-top: -15px;
+    margin-left: 0;
+    border-top: 15px solid transparent;
+    border-right: 15px solid #e0edff;
+    border-bottom: 15px solid transparent;
+  }
+}
+@media screen and (min-width: 960px) {
+  .voice-content .balloon-right::before {
+    content: "";
+    position: absolute;
+    top: 70%;
+    left: 100%;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid #e0edff;
+  }
 }
 .voice-content .voice-profile {
   text-align: center;
+}
+@media screen and (min-width: 960px) {
+  .voice-content .voice-profile {
+    padding-top: 26px;
+  }
 }
 .voice-content .voice-profile img {
   background-color: #ccc;
@@ -350,6 +373,7 @@ header .hamburger.active span:nth-child(3) {
 @media screen and (min-width: 960px) {
   .voice-flex {
     flex-direction: row;
+    margin-right: -20%;
   }
 }
 /*# sourceMappingURL=style.css.map */

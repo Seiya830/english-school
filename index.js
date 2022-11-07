@@ -30,3 +30,19 @@ $(function() {
     }
   });
 });
+
+function zoomAnime() {
+  $('.zoomInTrigger').each(function() {
+  const elemPos = $(this).offset().top-50;
+  const scroll = $(window)
+.scrollTop();
+const windowHeight =$(window).height();
+if (scroll >= elemPos - windowHeight) {
+  $(this).addClass('zoomIn');
+    }
+  })
+};
+
+$(window).scroll(function (){
+  zoomAnime();
+});

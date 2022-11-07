@@ -376,4 +376,36 @@ header .hamburger.active span:nth-child(3) {
     margin-right: -20%;
   }
 }
+
+.zoomIn {
+  -webkit-animation-name: zoomInAnime;
+          animation-name: zoomInAnime;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes zoomInAnime {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes zoomInAnime {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 /*# sourceMappingURL=style.css.map */

@@ -31,18 +31,25 @@ $(function() {
   });
 });
 
+// 動きのきっかけとなるアニメーション名を定義
 function zoomAnime() {
+  // ズームインのきっかけのクラス名と動きのクラス名の設定
   $('.zoomInTrigger').each(function() {
-  const elemPos = $(this).offset().top-50;
-  const scroll = $(window)
-.scrollTop();
-const windowHeight =$(window).height();
+  // ズームインさせたい要素の縦位置を取得
+  const elemPos = $(this).offset().top;
+  // スクロールバーの位置を取得
+  const scroll = $(window).scrollTop();
+  // ウィンドウの高さを取得
+  const windowHeight =$(window).height();
+
 if (scroll >= elemPos - windowHeight) {
+  // 画面内に入ったらzoomInというクラスを追加
   $(this).addClass('zoomIn');
     }
   })
 };
 
+// 画面をスクロールした際に動かす処理
 $(window).scroll(function (){
   zoomAnime();
 });

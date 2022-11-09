@@ -415,6 +415,7 @@ header .hamburger.active span:nth-child(3) {
           animation: bg 10s infinite linear;
   background-color: #e8e8e8;
   margin-top: 80px;
+  padding-bottom: 60px;
 }
 @-webkit-keyframes bg {
   0% {

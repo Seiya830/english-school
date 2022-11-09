@@ -409,8 +409,31 @@ header .hamburger.active span:nth-child(3) {
   }
 }
 .summary {
+  background-image: url(../img/bg.jpg);
+  background-size: 700px 700px;
+  -webkit-animation: bg 10s infinite linear;
+          animation: bg 10s infinite linear;
   background-color: #e8e8e8;
   margin-top: 80px;
+}
+@-webkit-keyframes bg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -700px 700px;
+  }
+}
+@keyframes bg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -700px 700px;
+  }
+}
+.summary .section-title {
+  padding-top: 60px;
 }
 .summary .summary-item {
   width: 343px;

@@ -469,4 +469,44 @@ header .hamburger.active span:nth-child(3) {
     justify-content: center;
   }
 }
+
+.entry {
+  margin-top: 80px;
+  text-align: center;
+}
+.entry h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.entry p {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.entry button {
+  background-color: #ff2a2a;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  width: 85%;
+  height: 61px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.entry button:hover {
+  background-color: #fff;
+  color: #ff2a2a;
+  border: solid 3px #ff2a2a;
+  transition: 0.4s;
+}
+@media screen and (min-width: 960px) {
+  .entry button {
+    width: 50%;
+  }
+}
 /*# sourceMappingURL=style.css.map */

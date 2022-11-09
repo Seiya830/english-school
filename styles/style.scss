@@ -401,8 +401,24 @@ header {
 }
 
 .summary {
+  background-image: url(../img/bg.jpg);
+  background-size: 700px 700px;
+  animation: bg 10s infinite linear;
   background-color: #e8e8e8;
   margin-top: 80px;
+
+  @keyframes bg {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -700px 700px;
+    }
+  }
+
+  .section-title {
+    padding-top: 60px;
+  }
 
   .summary-item {
     width: 343px;

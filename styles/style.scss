@@ -399,3 +399,45 @@ header {
     transform: scale(1);
   }
 }
+
+.summary {
+  background-color: #e8e8e8;
+  margin-top: 80px;
+
+  .summary-item {
+    width: 343px;
+    height: 232px;
+    background-color: #fff;
+    margin: 32px auto;
+    border-radius: 20px;
+    text-align: center;
+
+    @include pc {
+      margin: 15px 30px;
+    }
+
+    .item-title {
+      padding-top: 30px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .item-subtitle {
+      margin-top: 15px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .item-text {
+      margin: 30px;
+      font-size: 16px;
+    }
+  }
+
+  .summary-container {
+    @include pc {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

@@ -519,18 +519,24 @@ footer .menu {
   display: flex;
   flex-wrap: wrap;
 }
+@media screen and (min-width: 960px) {
+  footer .menu {
+    flex-wrap: nowrap;
+  }
+}
 footer .menu ul {
   width: 50%;
   margin-bottom: 30px;
+}
+footer .menu ul li {
+  font-size: 15px;
+  cursor: pointer;
 }
 footer .menu ul .menu-title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
-}
-footer .menu ul li {
-  font-size: 15px;
-  cursor: pointer;
+  cursor: auto;
 }
 footer .copyright {
   text-align: center;

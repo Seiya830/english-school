@@ -500,3 +500,35 @@ header {
     }
   }
 }
+
+footer {
+  margin-top: 80px;
+  background-color: #e8e8e8;
+  .menu {
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+
+    ul {
+      width: 50%;
+      margin-bottom: 30px;
+
+      .menu-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      li {
+        font-size: 15px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 20px;
+  }
+}

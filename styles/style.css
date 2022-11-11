@@ -68,9 +68,12 @@ header .header-nav ul .nav-btn ::after {
 header .header-nav.active {
   visibility: visible;
   opacity: 1;
+  position: fixed;
+  top: 0;
+  z-index: 20;
 }
 header .hamburger {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   display: inline-block;

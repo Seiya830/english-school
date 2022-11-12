@@ -6,7 +6,7 @@ html {
 
 /* bodyのフォントサイズを1.6em(16px)に設定 */
 body {
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 
 a {
@@ -51,7 +51,7 @@ header .header-nav ul li {
 }
 header .header-nav ul li a {
   color: #fff;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 header .header-nav ul .nav-btn {
   margin-top: 50px;
@@ -173,7 +173,7 @@ header .hamburger.active span:nth-child(3) {
   }
 }
 .top .top-text {
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 @media screen and (min-width: 960px) {
@@ -189,7 +189,7 @@ header .hamburger.active span:nth-child(3) {
 }
 @media screen and (min-width: 960px) {
   .top .top-text h2 {
-    font-size: 46px;
+    font-size: 4.6rem;
     text-shadow: #fff 0 3px 6px;
   }
 }
@@ -221,7 +221,7 @@ header .hamburger.active span:nth-child(3) {
 /* ========== reason ========= */
 .section-title {
   position: relative;
-  font-size: 28px;
+  font-size: 2.8rem;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -298,7 +298,7 @@ header .hamburger.active span:nth-child(3) {
   align-items: center;
 }
 .reason-content .item .fa-solid {
-  font-size: 60px;
+  font-size: 6rem;
 }
 .reason-content .item-text {
   width: 60%;
@@ -306,10 +306,10 @@ header .hamburger.active span:nth-child(3) {
 }
 .reason-content .item-text h3 {
   color: #ff2a2a;
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 .reason-content .item-text p {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 /* ========== voice ========== */
@@ -328,7 +328,7 @@ header .hamburger.active span:nth-child(3) {
   border-radius: 15px;
   position: relative;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.6rem;
   background: #e0edff;
 }
 @media screen and (min-width: 960px) {
@@ -385,7 +385,7 @@ header .hamburger.active span:nth-child(3) {
   margin-bottom: 10px;
 }
 .voice-content .voice-profile p {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 @media screen and (min-width: 960px) {
@@ -470,17 +470,17 @@ header .hamburger.active span:nth-child(3) {
 }
 .summary .summary-item .item-title {
   padding-top: 30px;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: bold;
 }
 .summary .summary-item .item-subtitle {
   margin-top: 15px;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 .summary .summary-item .item-text {
   margin: 30px;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 @media screen and (min-width: 960px) {
   .summary .summary-container {
@@ -495,13 +495,13 @@ header .hamburger.active span:nth-child(3) {
   text-align: center;
 }
 .entry h2 {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: bold;
   margin-right: 15px;
   margin-left: 15px;
 }
 .entry p {
-  font-size: 16px;
+  font-size: 1.6rem;
   margin-top: 5px;
   margin-right: 15px;
   margin-left: 15px;
@@ -513,7 +513,7 @@ header .hamburger.active span:nth-child(3) {
   border-radius: 40px;
   width: 85%;
   height: 61px;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: bold;
   margin-top: 40px;
   cursor: pointer;
@@ -550,11 +550,11 @@ footer .menu ul {
   margin-bottom: 30px;
 }
 footer .menu ul li {
-  font-size: 15px;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 footer .menu ul .menu-title {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 10px;
   cursor: auto;

@@ -8,6 +8,7 @@ ul {
   list-style: none;
 }
 
+/* ========== header ========== */
 header {
   h1 {
     width: 100px;
@@ -111,7 +112,7 @@ header {
       }
     }
   }
-  // ハンバーガーメニュークリック後
+  /* ========= ハンバーガーメニュークリック後 ========== */
   .hamburger.active {
     span {
       &:nth-child(1) {
@@ -128,6 +129,7 @@ header {
   }
 }
 
+/* ========== top ========== */
 .top {
   margin-bottom: 86px;
   .top-img {
@@ -205,6 +207,7 @@ header {
   }
 }
 
+/* ========== reason ========= */
 .section-title {
   position: relative;
   font-size: 28px;
@@ -241,7 +244,7 @@ header {
     }
   }
 
-  /*===== inview =====*/
+  /*===== fadein =====*/
   .fadeIn-left {
     opacity: 0;
     transform: translate(-50%, 0);
@@ -251,7 +254,6 @@ header {
     transform: translate(0, 0);
     opacity: 1;
   }
-  /*==================*/
 
   .reason-text2 {
     background-color: #fff;
@@ -270,7 +272,6 @@ header {
     }
   }
 
-  /*===== inview =====*/
   .fadeIn-right {
     opacity: 0;
     transform: translate(50%, 0);
@@ -280,7 +281,6 @@ header {
     transform: translate(0, 0);
     opacity: 1;
   }
-  /*==================*/
 
   .item {
     display: flex;
@@ -302,6 +302,7 @@ header {
   }
 }
 
+/* ========== voice ========== */
 .voice-content {
   @include pc {
     display: flex;
@@ -403,6 +404,7 @@ header {
   }
 }
 
+/* ========== summary ========== */
 .summary {
   background-image: url(../img/bg.jpg);
   background-size: 700px 700px;
@@ -462,6 +464,7 @@ header {
   }
 }
 
+/* ==========entry ========== */
 .entry {
   margin-top: 80px;
   text-align: center;
@@ -504,6 +507,7 @@ header {
   }
 }
 
+/* =========== footer ========== */
 footer {
   margin-top: 80px;
   background-color: #e8e8e8;

@@ -1,5 +1,15 @@
 @import "./mixin";
 
+/* ルートのフォントサイズを10pxに設定 */
+html {
+  font-size: 62.5%;
+}
+
+/* bodyのフォントサイズを1.6em(16px)に設定 */
+body {
+  font-size: 1.6em;
+}
+
 a {
   text-decoration: none;
 }

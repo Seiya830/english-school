@@ -1,3 +1,4 @@
+@charset "UTF-8";
 a {
   text-decoration: none;
 }
@@ -6,6 +7,10 @@ ul {
   list-style: none;
 }
 
+/* ==========  ========== */
+header {
+  /* ========= ハンバーガーメニュークリック後 ========== */
+}
 header h1 {
   width: 100px;
 }
@@ -116,6 +121,7 @@ header .hamburger.active span:nth-child(3) {
   transform: rotate(45deg);
 }
 
+/* ========== top ========== */
 .top {
   margin-bottom: 86px;
 }
@@ -202,6 +208,7 @@ header .hamburger.active span:nth-child(3) {
   transition: 0.4s;
 }
 
+/* ========== reason ========= */
 .section-title {
   position: relative;
   font-size: 28px;
@@ -225,10 +232,7 @@ header .hamburger.active span:nth-child(3) {
   background-color: #ff2a2a;
   margin-bottom: 80px;
   padding: 40px 0;
-  /*===== inview =====*/
-  /*==================*/
-  /*===== inview =====*/
-  /*==================*/
+  /*===== fadein =====*/
 }
 .reason-content .reason-text1 {
   background-color: #fff;
@@ -298,6 +302,7 @@ header .hamburger.active span:nth-child(3) {
   font-size: 18px;
 }
 
+/* ========== voice ========== */
 @media screen and (min-width: 960px) {
   .voice-content {
     display: flex;
@@ -411,6 +416,7 @@ header .hamburger.active span:nth-child(3) {
     transform: scale(1);
   }
 }
+/* ========== summary ========== */
 .summary {
   background-image: url(../img/bg.jpg);
   background-size: 700px 700px;
@@ -473,6 +479,7 @@ header .hamburger.active span:nth-child(3) {
   }
 }
 
+/* ==========entry ========== */
 .entry {
   margin-top: 80px;
   text-align: center;
@@ -513,6 +520,7 @@ header .hamburger.active span:nth-child(3) {
   }
 }
 
+/* =========== footer ========== */
 footer {
   margin-top: 80px;
   background-color: #e8e8e8;

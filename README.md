@@ -10,7 +10,7 @@ PC サイズ
 ![PCサイズ](<./img/127.0.0.1_5500_index.html%20(1).png>)
 
 SP サイズ
-![SPサイズ](./img/127.0.0.1_5500_index.html.png)
+![SPサイズ](<./img/127.0.0.1_5500_index.html(iPhone%2012%20Pro).png>)
 
 ## 参考サイト
 
